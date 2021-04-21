@@ -45,7 +45,7 @@ namespace TodoListWebApp
             app.UseRouting();
 
             app.UseAuthorization();
-
+            // Rest(full) URL
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
