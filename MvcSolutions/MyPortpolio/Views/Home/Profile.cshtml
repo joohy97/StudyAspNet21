@@ -1,9 +1,6 @@
-﻿@{
+﻿@model MyPortpolio.Models.Manage
+@{
     ViewData["Title"] = "Profile";
     Layout = "~/Views/Shared/_ProfileLayout.cshtml";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Profile Page</h1>
-    <p>To be continued...</p>
-</div>
+@Html.Raw(Model.Contents)

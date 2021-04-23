@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicMvcWebApp", "BasicMvcW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbWebApp", "DbWebApp\DbWebApp.csproj", "{9874B305-F701-41C6-93AF-C4478D8F38BF}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MvcWebLab.Database", "MvcWebLab.Database\MvcWebLab.Database.sqlproj", "{77D362DB-F843-409A-9475-627B92FFA7DC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoListWebApp", "TodoListWebApp\TodoListWebApp.csproj", "{EB0216A2-B5C1-4AC2-900C-58E2E0FE0BD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiTestApp", "RestApiTestApp\RestApiTestApp.csproj", "{DC068139-3274-4A5D-8819-35CE0A1004AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApiTestApp", "RestApiTestApp\RestApiTestApp.csproj", "{DC068139-3274-4A5D-8819-35CE0A1004AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPortpolio", "MyPortpolio\MyPortpolio.csproj", "{AB492787-DEF8-417E-B0C4-95D3B7B6DDEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyPortpolio", "MyPortpolio\MyPortpolio.csproj", "{AB492787-DEF8-417E-B0C4-95D3B7B6DDEA}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TotalDatabase", "TotalDatabase\TotalDatabase.sqlproj", "{887E207E-9FFE-4E4B-960E-0D1A8655CCEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +29,6 @@ Global
 		{9874B305-F701-41C6-93AF-C4478D8F38BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9874B305-F701-41C6-93AF-C4478D8F38BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9874B305-F701-41C6-93AF-C4478D8F38BF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{77D362DB-F843-409A-9475-627B92FFA7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77D362DB-F843-409A-9475-627B92FFA7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77D362DB-F843-409A-9475-627B92FFA7DC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{77D362DB-F843-409A-9475-627B92FFA7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77D362DB-F843-409A-9475-627B92FFA7DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{77D362DB-F843-409A-9475-627B92FFA7DC}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{EB0216A2-B5C1-4AC2-900C-58E2E0FE0BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EB0216A2-B5C1-4AC2-900C-58E2E0FE0BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB0216A2-B5C1-4AC2-900C-58E2E0FE0BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,6 +41,12 @@ Global
 		{AB492787-DEF8-417E-B0C4-95D3B7B6DDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB492787-DEF8-417E-B0C4-95D3B7B6DDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB492787-DEF8-417E-B0C4-95D3B7B6DDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{887E207E-9FFE-4E4B-960E-0D1A8655CCEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887E207E-9FFE-4E4B-960E-0D1A8655CCEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{887E207E-9FFE-4E4B-960E-0D1A8655CCEF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{887E207E-9FFE-4E4B-960E-0D1A8655CCEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887E207E-9FFE-4E4B-960E-0D1A8655CCEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{887E207E-9FFE-4E4B-960E-0D1A8655CCEF}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
