@@ -7,6 +7,7 @@ namespace Helpers.Test
     [TestClass]
     public class WebTest
     {
+        [Ignore]
         [TestMethod]
         public void IsCorrectSqlConnection()
         {
